@@ -1,0 +1,23 @@
+body {
+  font-family: var(--ff-primary);
+  color: var(--clr-black);
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: calc(2rem + 3vw);
+  color: var(--clr-white);
+}
+
+h2 {
+  font-size: 4rem;
+  color: var(--clr-white);
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 3rem;
+  color: var(--clr-black);
+  
+}
+
