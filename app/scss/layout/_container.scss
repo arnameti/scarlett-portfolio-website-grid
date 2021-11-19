@@ -2,6 +2,11 @@
   width: 97vw;
   max-width: 1510px;
   margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: calc(3vw + 3vh) repeat(16, 1fr);
+  grid-template-rows: calc(3vw + 3vh) repeat(7, min-content);
+
 }
 
 @media screen and (min-width: 992px) {
