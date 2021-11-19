@@ -4,7 +4,7 @@
 
   display: grid;
   grid-template-columns: calc(2.5vw + 3rem) repeat(16, 1fr);
-  grid-template-rows: calc(2.5vw + 3rem) repeat(7, min-content);
+  grid-template-rows: calc(2.5vw + 3rem) calc(100vh - calc(2.5vw + 3rem)) repeat(6, min-content);
 
 }
 

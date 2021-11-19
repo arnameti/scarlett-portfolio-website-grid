@@ -1,0 +1,21 @@
+.hero {
+  grid-column: 2 / -1;
+  grid-row: 2 / 3;
+
+  background-image: url("../img/full-bg-07.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+@media screen and (max-width: 1072px) {
+  .hero {
+    background-position: 90%; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-position: 80%; 
+  }
+}
