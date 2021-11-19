@@ -1,11 +1,10 @@
 .container {
-  width: 99vw;
   max-width: 1510px;
   margin: 0 auto;
 
   display: grid;
-  grid-template-columns: calc(2.7vw + 2.7vh) repeat(16, 1fr);
-  grid-template-rows: calc(2.7vw + 2.7vh) repeat(7, min-content);
+  grid-template-columns: calc(2.5vw + 3rem) repeat(16, 1fr);
+  grid-template-rows: calc(2.5vw + 3rem) repeat(7, min-content);
 
 }
 
